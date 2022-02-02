@@ -3,7 +3,7 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 export default function CustomNav() {
   return (
     <>
-      <Navbar expand="sm" variant="dark" bg="dark" sticky="top">
+      <Navbar collapseOnSelect expand="sm" variant="dark" bg="dark" sticky="top">
         <Container>
           <Navbar.Brand href="#">Navbar</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
