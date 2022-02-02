@@ -1,19 +1,21 @@
-import { Link } from "react-router-dom";
+import { Nav, Navbar, Container } from "react-bootstrap";
 
-export default function Nav() {
+export default function CustomNav() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/projets">Projets</Link>
-        </li>
-        <li>
-          <Link to="/cv">Mon CV</Link>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <Navbar expand="sm" variant="dark" bg="dark" sticky="top">
+        <Container>
+          <Navbar.Brand href="#">Navbar</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav>
+              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/projets">Projets</Nav.Link>
+              <Nav.Link href="/cv">Mon CV</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+    </>
   );
 }
