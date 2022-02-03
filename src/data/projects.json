@@ -1,0 +1,23 @@
+{
+      "projects": [
+            {
+                  "projectId": 1,
+                  "projectTitle": "My First Project",
+                  "projectDesc" : "the description of my first project",
+                  "projectUrl": "/firstproject",
+                  "projectImages":[
+                        "../img/Placeholder.png"
+                  ]
+            },
+            {
+                  
+                  "projectId": 2,
+                  "projectTitle": "My Second Project",
+                  "projectDesc" : "the description of my second project",
+                  "projectUrl": "/secondproject",
+                  "projectImages":[
+                        "../img/Placeholder.png"
+                  ]
+            }
+      ]
+}

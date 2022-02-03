@@ -1,0 +1,14 @@
+@import "../helpers/variables";
+
+#projets{
+      h1{
+            text-align: center;
+      }
+      .card-group{
+            justify-content: center;
+
+            .card{
+                  margin: 20px;
+            }
+      }
+}
