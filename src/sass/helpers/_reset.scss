@@ -1,5 +1,6 @@
 @import './variables';
 
+// Global resets
 * {
       margin: 0;
       padding: 0;
@@ -7,6 +8,18 @@
       font-family: sans-serif;
 }
 
+body{
+      font-family: $defaultStyle;
+}
+
 html {
       scroll-behavior: smooth;
+}
+
+
+//Title resets
+h1{
+      color: $black;
+      font-family: $titleStyle;
+      font-weight: $titleWeight;
 }
