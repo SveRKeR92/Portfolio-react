@@ -21,5 +21,14 @@ html {
 h1{
       color: $black;
       font-family: $titleStyle;
-      font-weight: $titleWeight;
+      font-weight: $supabold;
+}
+
+h2{
+      font-family: $titleStyle;
+      font-weight: $bold;
+}
+
+h3{
+      font-family: $titleStyle;
 }

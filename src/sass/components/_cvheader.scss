@@ -1,0 +1,17 @@
+@import "../helpers/variables";
+
+#cv{
+
+      img{
+            width: 300px;
+      }
+
+      .nameTitle{
+            display: grid;
+            align-items: center;
+
+            h1{
+                  text-align: center;
+            }
+      }
+}

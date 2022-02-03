@@ -1,0 +1,58 @@
+{
+      "cv": {
+            "picture": "../img/profilePicture.png",
+            "infos": {
+                  "firstname": "Maxime",
+                  "lastname": "Attala",
+                  "address": "132 Somewhere - State",
+                  "phone": "06 69 69 69 69",
+                  "mail": "example@mail.com"
+            },
+            "bio" : "This is some text about me and my life, but I am too lazy to write it",
+            "experiences":[
+                  {
+                        "job" : "Webmaster assistant",
+                        "company" : "Vinci Immobilier",
+                        "duration" : "1 month",
+                        "missions" : ["Sorting app"]
+                  },
+                  {
+                        "job" : "App developper",
+                        "company" : "Ministère de l'Intérieur",
+                        "duration" : "2 month",
+                        "missions" : [
+                              "Human ressources app",
+                              "mission 2"
+                        ]
+                  }
+            ],
+            "skills":[
+                  {
+                        "name" : "PHP",
+                        "level" : 80
+                  },
+                  {
+                        "name" : "HTML",
+                        "level" : 60
+                  },
+                  {
+                        "name" : "CS",
+                        "level" : 50
+                  },
+                  {
+                        "name" : "Javascript",
+                        "level" : 70  
+                  }
+            ],
+            "graduations":[
+                  {
+                        "name" : "Baccalauréat Scientifique",
+                        "year" : 2018
+                  },
+                  {
+                        "name" : "Bachelor Chef de Projet Digital",
+                        "year" : 2022
+                  }
+            ]
+      }
+}
