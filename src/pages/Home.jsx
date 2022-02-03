@@ -7,7 +7,10 @@ const Home = () => {
     <>
       <Navbar />
       <section id="home">
-        <h1>Home</h1>
+        <div>
+          <h1>Maxime Attala</h1>
+          <h2>IIM Student - 2024 school group</h2>
+        </div>
       </section>
       <Footer />
     </>
