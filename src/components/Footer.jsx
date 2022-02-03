@@ -1,6 +1,6 @@
 import '../sass/components/_footer.scss'
 
-export default function Footer(){
+const Footer = () => {
    return(
       <footer>
          <p>
@@ -9,3 +9,5 @@ export default function Footer(){
       </footer>
    )
 }
+
+export default Footer
