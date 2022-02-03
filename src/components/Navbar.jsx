@@ -1,11 +1,12 @@
 import { Nav, Navbar, Container } from "react-bootstrap";
+import '../sass/helpers/_reset.scss';
 
 export default function CustomNav() {
   return (
     <>
       <Navbar collapseOnSelect expand="sm" variant="dark" bg="dark" sticky="top">
         <Container>
-          <Navbar.Brand href="#">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#">Maxime - Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>

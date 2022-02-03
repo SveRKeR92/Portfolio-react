@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../sass/components/_projets.scss";
 
@@ -8,6 +9,7 @@ const Projets = () => {
       <section id="projets">
         <h1>Projets</h1>
       </section>
+      <Footer />
     </>
   );
 };

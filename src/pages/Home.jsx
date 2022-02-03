@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../sass/components/_home.scss";
 
@@ -8,6 +9,7 @@ const Home = () => {
       <section id="home">
         <h1>Home</h1>
       </section>
+      <Footer />
     </>
   );
 };
