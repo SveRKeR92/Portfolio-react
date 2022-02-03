@@ -6,6 +6,7 @@
                   "projectDesc" : "the description of my first project",
                   "projectUrl": "projet/1",
                   "projectImages":[
+                        "../img/Placeholder.png",
                         "../img/Placeholder.png"
                   ]
             },
@@ -14,7 +15,7 @@
                   "projectId": 2,
                   "projectTitle": "My Second Project",
                   "projectDesc" : "the description of my second project",
-                  "projectUrl": "projets/2",
+                  "projectUrl": "projet/2",
                   "projectImages":[
                         "../img/Placeholder.png"
                   ]
