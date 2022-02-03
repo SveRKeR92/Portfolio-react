@@ -9,7 +9,7 @@ const Rooter = () => (
       <Router>
             <Switch>
                   <Route exact path="/" component={Home} />
-                  <Route path="/projets" component={Projets} />
+                  <Route exact path="/projets" component={Projets} />
                   <Route path="/cv" component={Cv} />
                   <Route path="*" component={NoMatch} />
             </Switch>
