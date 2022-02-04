@@ -6,7 +6,7 @@ const CvHeader = ({picture, firstname, lastname}) =>{
             <>
                   <Container>
                         <Row>
-                              <Col>
+                              <Col className="imageContainer">
                                     <img src={picture} alt="Profile" />
                               </Col>
                               <Col className="nameTitle">
