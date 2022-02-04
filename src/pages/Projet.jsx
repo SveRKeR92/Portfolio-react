@@ -2,6 +2,8 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
 import { Link, useParams } from "react-router-dom";
 import Projects from '../data/projects.json';
+import { Container } from "react-bootstrap";
+import '../sass/components/_singleproject.scss';
 
 
 
@@ -16,14 +18,18 @@ const Projet = () => {
                   {console.log(theProject)}
                   <Navbar/>
                   <section id="projet">
-                        <h1>{theProject.projectTitle}</h1>
-                        {theProject.projectImages.map((data, index) => 
-                              <div key={index}>
-                                    <img src={data} alt={theProject.projectTitle} />
+                        <Container>
+                              <div className="grid">
+                                    <h1>{theProject.projectTitle}</h1>
+                                    {theProject.projectImages.map((data, index) => 
+                                          <div key={index}>
+                                                <img src={data} alt={theProject.projectTitle} />
+                                          </div>
+                                    )}
+                                    <p>{theProject.projectDesc}</p>
+                                    <Link to="/projets">Back to all projects</Link>
                               </div>
-                        )}
-                        <p>{theProject.projectDesc}</p>
-                        <Link to="/projets">Back to all projects</Link>
+                        </Container>
                   </section>
                   <Footer/>
             </>
