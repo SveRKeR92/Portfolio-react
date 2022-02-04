@@ -1,3 +1,6 @@
+# Réalisation du projet par Maxime Attala
+Lien vers l'app buildée : https://portofolio-react-maxime.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
