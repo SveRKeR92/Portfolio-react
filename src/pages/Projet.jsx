@@ -7,12 +7,7 @@ import Projects from '../data/projects.json';
 
 const Projet = () => {
 
-      function GetParam(){
-            const param = useParams();
-            return param
-      }
-
-      const slug = GetParam()
+      const slug = useParams();
 
       const theProject = Projects.projects[slug.id-1];
 

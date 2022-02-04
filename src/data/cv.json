@@ -53,6 +53,18 @@
                         "name" : "Bachelor Chef de Projet Digital",
                         "year" : 2022
                   }
+            ],
+            "studies": [
+                  {
+                        "school" : "IIM",
+                        "year": "2019 - 2024",
+                        "speciality" : "web"
+                  },
+                  {
+                        "school": "Lycée Richelieu",
+                        "year": "2015 - 2018",
+                        "speciality": "maths"
+                  }
             ]
       }
 }
