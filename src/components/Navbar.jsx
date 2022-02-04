@@ -13,6 +13,7 @@ const CustomNav= () => {
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/projets">Projets</Nav.Link>
               <Nav.Link as={Link} to="/cv">Mon CV</Nav.Link>
+              <Nav.Link as={Link} to="/quizz">Quizz</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
