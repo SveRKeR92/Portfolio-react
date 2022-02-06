@@ -22,21 +22,93 @@
                                     {"answerTitle": "Donkey Kong", "isCorrect": true},
                                     {"answerTitle": "Punch Out", "isCorrect": false}
                               ]
+                        },
+                        {
+                              "questionTitle": "Quel est le tout premier long-métrage d'animation entièrement 3D de l'histoire ?",
+                              "answers":[
+                                    {"answerTitle": "Toy Story", "isCorrect": true},
+                                    {"answerTitle": "Shrek", "isCorrect": false},
+                                    {"answerTitle": "1001 pattes", "isCorrect": false},
+                                    {"answerTitle": "Fourmiz", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Qu'est ce qu'une grande étendue d'eau stagnante formée par les anciens bras et méandres d'un fleuve ?",
+                              "answers":[
+                                    {"answerTitle": "Batholite", "isCorrect": false},
+                                    {"answerTitle": "Bayou", "isCorrect": true},
+                                    {"answerTitle": "Barou", "isCorrect": false},
+                                    {"answerTitle": "Bassin", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Quel est l'autre nom de la \"carpe des mers \" ?",
+                              "answers":[
+                                    {"answerTitle": "Le rémora", "isCorrect": false},
+                                    {"answerTitle": "La carpe Diem", "isCorrect": false},
+                                    {"answerTitle": "La dorade", "isCorrect": true},
+                                    {"answerTitle": "La lamproie", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "En 1992, de quelle équipe de baseball, Nintendo devient-elle actionnaire majoritaire ?",
+                              "answers":[
+                                    {"answerTitle": "Les Baltimore Orioles", "isCorrect": false},
+                                    {"answerTitle": "Les Colorado Rockies", "isCorrect": false},
+                                    {"answerTitle": "Les Seattle Mariners", "isCorrect": true},
+                                    {"answerTitle": "Les Altanta Braves", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Sur le grand sceau de France, sous quels traits la Liberté est-elle représentée ?",
+                              "answers":[
+                                    {"answerTitle": "Marianne", "isCorrect": false},
+                                    {"answerTitle": "Bacchus", "isCorrect": false},
+                                    {"answerTitle": "Junon", "isCorrect": true},
+                                    {"answerTitle": "Héra", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Une matrice Nilpotente et Diagonalisable est ?",
+                              "answers":[
+                                    {"answerTitle": "Une matrice de Hilbert", "isCorrect": false},
+                                    {"answerTitle": "Nulle", "isCorrect": true},
+                                    {"answerTitle": "Définie positive", "isCorrect": false},
+                                    {"answerTitle": "Une matrice de permutation", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Combien de temps a duré la guerre de trente ans ?",
+                              "answers":[
+                                    {"answerTitle": "36 ans", "isCorrect": false},
+                                    {"answerTitle": "116 ans", "isCorrect": false},
+                                    {"answerTitle": "24 ans", "isCorrect": false},
+                                    {"answerTitle": "30 ans", "isCorrect": true}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Quelle planète du système solaire se trouve après Neptune ?",
+                              "answers":[
+                                    {"answerTitle": "Mercure", "isCorrect": false},
+                                    {"answerTitle": "Uranus", "isCorrect": false},
+                                    {"answerTitle": "Pluton", "isCorrect": false},
+                                    {"answerTitle": "Aucune", "isCorrect": true}
+                              ]
                         }
                   ]
             },
             {
                   "quizzId": 2,
-                  "quizzTitle": "Jeux vidéos / Mangas",
+                  "quizzTitle": "Jeux vidéos",
                   "quizzDesc": "Viens tester tes connaissances en jeux vidéos et mangas",
                   "quizzQuestions":[
                         {
-                              "questionTitle": "Dans le monde de l'Attaque des Titans, de quelle branche fais partie Eren ?",
+                              "questionTitle": "Lesquels de ces ennemis ne sont pas dans le premier Halo ?",
                               "answers":[
-                                    {"answerTitle": "Bataillon d'exploration", "isCorrect": true},
-                                    {"answerTitle": "Garnison", "isCorrect": false},
-                                    {"answerTitle": "Régiment des murailles", "isCorrect": false},
-                                    {"answerTitle": "Brigade spéciale", "isCorrect": true}
+                                    {"answerTitle": "Drones", "isCorrect": true},
+                                    {"answerTitle": "Brutes", "isCorrect": false},
+                                    {"answerTitle": "Rapaces", "isCorrect": false},
+                                    {"answerTitle": "Grognards", "isCorrect": false}
                               ]
                         },
                         {
@@ -46,6 +118,78 @@
                                     {"answerTitle": "Super Mario", "isCorrect": false},
                                     {"answerTitle": "Donkey Kong", "isCorrect": true},
                                     {"answerTitle": "Punch Out", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Dans Star Citizen, quel est le nom de la ville la plus froide du système Stanton ?",
+                              "answers":[
+                                    {"answerTitle": "ArcCorp", "isCorrect": false},
+                                    {"answerTitle": "Lorville", "isCorrect": false},
+                                    {"answerTitle": "Aberdeen", "isCorrect": false},
+                                    {"answerTitle": "New Babbage", "isCorrect": true}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Dans Final Fantasy 14, lorsqu'elle s'adresse au personnage principal, Hydaelyn dit : \" Entends, ressens, ... \" ?",
+                              "answers":[
+                                    {"answerTitle": "Penses", "isCorrect": true},
+                                    {"answerTitle": "Manges", "isCorrect": false},
+                                    {"answerTitle": "Vois", "isCorrect": false},
+                                    {"answerTitle": "Dors", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Mother 2 est un jeu SNES culte au Japon. Quel est le nom du jeu lors de sa commercialisation dans l'Ouest ?",
+                              "answers":[
+                                    {"answerTitle": "Mother 2", "isCorrect": false},
+                                    {"answerTitle": "Mommy 2", "isCorrect": false},
+                                    {"answerTitle": "Earthbound", "isCorrect": true},
+                                    {"answerTitle": "Ness' Adventures", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Avec la sortie de Zeri, combien de personnages compte le jeu League of Legends ?",
+                              "answers":[
+                                    {"answerTitle": "158", "isCorrect": true},
+                                    {"answerTitle": "159", "isCorrect": false},
+                                    {"answerTitle": "157", "isCorrect": false},
+                                    {"answerTitle": "160", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Quel est le nom du quatrième opus des Elder Scrolls ?",
+                              "answers":[
+                                    {"answerTitle": "Morrowind", "isCorrect": false},
+                                    {"answerTitle": "Daggerfall", "isCorrect": false},
+                                    {"answerTitle": "Oblivion", "isCorrect": true},
+                                    {"answerTitle": "Skyrim", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "En quelle année est sorti initialement le jeu The Legend of Zelda: Twilight Princess ?",
+                              "answers":[
+                                    {"answerTitle": "2006", "isCorrect": true},
+                                    {"answerTitle": "1998", "isCorrect": false},
+                                    {"answerTitle": "2002", "isCorrect": false},
+                                    {"answerTitle": "2000", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Dans Mega Man X, quel est le nom du personnage au sabre qui se bat aux côtés de X ?",
+                              "answers":[
+                                    {"answerTitle": "Iris", "isCorrect": false},
+                                    {"answerTitle": "Zero", "isCorrect": true},
+                                    {"answerTitle": "Y", "isCorrect": false},
+                                    {"answerTitle": "Sigma", "isCorrect": false}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Quel est le jeu vidéo le plus vendu de l'histoire ?",
+                              "answers":[
+                                    {"answerTitle": "Tétris", "isCorrect": false},
+                                    {"answerTitle": "Wii Sports", "isCorrect": false},
+                                    {"answerTitle": "GTA V", "isCorrect": false},
+                                    {"answerTitle": "Minecraft", "isCorrect": true}
                               ]
                         }
                   ]
