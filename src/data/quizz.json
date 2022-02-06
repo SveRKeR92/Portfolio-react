@@ -1,0 +1,54 @@
+{
+      "quizz":[
+            {
+                  "quizzId": 1,
+                  "quizzTitle": "Culture générale",
+                  "quizzDesc": "Viens tester tes connaissances en culture générale",
+                  "quizzQuestions":[
+                        {
+                              "questionTitle": "Quelle est la capitale de l'Australie ?",
+                              "answers":[
+                                    {"answerTitle": "Paris", "isCorrect": false},
+                                    {"answerTitle": "New York", "isCorrect": false},
+                                    {"answerTitle": "Sydney", "isCorrect": false},
+                                    {"answerTitle": "Canberra", "isCorrect": true}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Dans quel jeu Mario est apparu pour la toute première fois ?",
+                              "answers":[
+                                    {"answerTitle": "Wrecking Crew", "isCorrect": false},
+                                    {"answerTitle": "Super Mario", "isCorrect": false},
+                                    {"answerTitle": "Donkey Kong", "isCorrect": true},
+                                    {"answerTitle": "Punch OUt", "isCorrect": false}
+                              ]
+                        }
+                  ]
+            },
+            {
+                  "quizzId": 2,
+                  "quizzTitle": "Jeux vidéos / Mangas",
+                  "quizzDesc": "Viens tester tes connaissances en jeux vidéos et mangas",
+                  "quizzQuestions":[
+                        {
+                              "questionTitle": "Dans le monde de l'Attaque des Titans, de quelle branche fais partie Eren ?",
+                              "answers":[
+                                    {"answerTitle": "Bataillon d'exploration", "isCorrect": true},
+                                    {"answerTitle": "Garnison", "isCorrect": false},
+                                    {"answerTitle": "Régiment des murailles", "isCorrect": false},
+                                    {"answerTitle": "Brigade spéciale", "isCorrect": true}
+                              ]
+                        },
+                        {
+                              "questionTitle": "Dans quel jeu Mario est apparu pour la toute première fois ?",
+                              "answers":[
+                                    {"answerTitle": "Wrecking Crew", "isCorrect": false},
+                                    {"answerTitle": "Super Mario", "isCorrect": false},
+                                    {"answerTitle": "Donkey Kong", "isCorrect": true},
+                                    {"answerTitle": "Punch OUt", "isCorrect": false}
+                              ]
+                        }
+                  ]
+            }
+      ]
+}

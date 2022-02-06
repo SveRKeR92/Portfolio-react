@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "../sass/components/_home.scss";
 
 const Home = () => {
+  useEffect(() => {
+    document.title = "Portfolio - Maxime Attala";
+  });
   return (
     <>
       <Navbar />

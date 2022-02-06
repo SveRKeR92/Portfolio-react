@@ -9,6 +9,7 @@ const Projets = lazy(() => import('../pages/Projets'));
 const Projet = lazy(() => import('../pages/Projet'));
 const Cv = lazy(() => import('../pages/Cv'));
 const Quizz = lazy(() => import('../pages/Quizz'));
+const SingleQuizz = lazy(() => import('../pages/SingleQuizz'));
 const NoMatch = lazy(() => import('./NoMatch'));
 
 const Rooter = () => (
@@ -20,6 +21,7 @@ const Rooter = () => (
         <Route path="/projet/:id" component={Projet} />
         <Route path="/cv" component={Cv} />
         <Route path="/quizz" component={Quizz} />
+        <Route path="/singlequizz/:id" component={SingleQuizz} />
         <Route path="*" component={NoMatch} />
       </Switch>
     </Router>
