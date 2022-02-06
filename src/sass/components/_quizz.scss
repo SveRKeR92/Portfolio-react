@@ -1,8 +1,44 @@
 @import '../helpers/variables';
 
-#quizz{
-      h1{
+#quizz {
+      h1 {
             margin-top: 20px;
             text-align: center;
+      }
+
+      a {
+            text-decoration: none;
+            color: black;
+      }
+
+      .quizzContainer {
+            display: grid;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 30px;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+            .quizzVignet{
+                  background-color: $grey;
+                  width: 300px;
+                  height: 150px;
+                  margin: 0 auto;
+                  border-radius: 10px;
+                  padding: 15px;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+                  transition: 0.3s;
+
+                  h2{
+                        font-size: 24px;
+                  }
+
+                  &:hover{
+                        transform: scale(1.1);
+                        box-shadow: 0px 4px 8px rgba(100, 100, 100, 0.863);
+                  }
+            }
       }
 }
